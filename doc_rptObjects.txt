@@ -1,0 +1,490 @@
+M:\Regional Genetics                                                                            17 July 2025
+Laboratories\Bioinformatics\clarity_exports\rd_wgs\tracker\w
+gs_tracker_250714_02_be.accdb
+
+Table: status                                                                                        Page: 1
+
+Properties
+
+AlternateBackShade:       95                          AlternateBackThemeC       1
+AlternateBackTint:        100                         BackShade:                100
+BackTint:                 100                         DatasheetForeTheme        0
+
+DatasheetGridlinesTh      3                           DateCreated:              15/07/2025 20:50:19
+DefaultView:              2                           DisplayViewsOnShar        1
+FilterOnLoad:             False                       HideNewField:             False
+
+LastUpdated:              17/07/2025 11:35:31         NameMap:                  Long binary data
+OrderByOn:                False                       OrderByOnLoad:            True
+Orientation:              Left-to-Right               PublishToWeb:             1
+
+ReadOnlyWhenDiscon        False                       RecordCount:              9
+ThemeFontIndex:           1                           TotalsRow:                False
+Updatable:                True
+
+
+
+
+Columns
+
+         Name                                                  Type                        Size
+         ID                                                    Long Integer                             4
+
+                  AggregateType:             -1
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Fixed Size, Auto-Increment
+                  CollatingOrder:            General
+                  ColumnHidden:              False
+
+                  ColumnOrder:               Default
+                  ColumnWidth:               Default
+                  CurrencyLCID:              0
+                  DataUpdatable:             False
+
+                  GUID:                      {guid {89103A95-1B3E-4BBB-8F2A-6465F6BEB1F8}}
+                  OrdinalPosition:           0
+                  Required:                  False
+
+                  ResultType:                0
+                  SourceField:               ID
+                  SourceTable:               status
+
+                  TextAlign:                 General
+
+         Status                                                Short Text                             255
+
+                  AggregateType:             -1
+                  AllowZeroLength:           True
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  ColumnHidden:              False
+                  ColumnOrder:               Default
+
+                  ColumnWidth:               4440
+                  CurrencyLCID:              0
+                  DataUpdatable:             False
+
+                  DisplayControl:            Text Box
+                  GUID:                      {guid {534F7895-1B20-471E-BBBE-29421086B58B}}
+                  IMEMode:                   0
+                  IMESentenceMode:           3
+
+                  OrdinalPosition:           1
+
+M:\Regional Genetics                                                                            17 July 2025
+Laboratories\Bioinformatics\clarity_exports\rd_wgs\tracker\w
+gs_tracker_250714_02_be.accdb
+
+Table: status     Required:                  True
+                  ResultType:                0
+                  SourceField:               Status
+
+                  SourceTable:               status
+                  TextAlign:                 General
+                  UnicodeCompression:        True
+
+
+
+Table Indexes
+
+         Name                                     Number of
+
+         ID                                       1
+                  Clustered:                 False
+                  DistinctCount:             9
+
+                  Foreign:                   False
+                  IgnoreNulls:               False
+                  Name:                      ID
+
+                  Primary:                   False
+                  Required:                  False
+                  Unique:                    False
+
+                  Fields:
+                  ID                         Ascending
+         PrimaryKey                               1
+
+                  Clustered:                 False
+                  DistinctCount:             9
+                  Foreign:                   False
+
+                  IgnoreNulls:               False
+                  Name:                      PrimaryKey
+                  Primary:                   True
+
+                  Required:                  True
+                  Unique:                    True
+                  Fields:
+
+                  ID                         Ascending
+
+
+
+
+
+User Permissions
+
+         admin                      Delete, Read Permissions, Set Permissions, Change Owner,
+                                    Read Definition, Write Definition, Read Data, Insert Data,
+
+
+
+
+Group Permissions
+
+         Admins                     Delete, Read Permissions, Set Permissions, Change Owner,
+                                    Read Definition, Write Definition, Read Data, Insert Data,
+         Users                      Delete, Read Permissions, Set Permissions, Change Owner,
+                                    Read Definition, Write Definition, Read Data, Insert Data,
+
+
+
+
+
+
+
+
+
+
+
+M:\Regional Genetics                                                                            17 July 2025
+Laboratories\Bioinformatics\clarity_exports\rd_wgs\tracker\w
+gs_tracker_250714_02_be.accdb
+
+Table: tracker                                                                                       Page: 3
+
+Properties
+
+AlternateBackShade:       95                          AlternateBackThemeC       1
+AlternateBackTint:        100                         BackShade:                100
+BackTint:                 100                         DatasheetForeTheme        0
+
+DatasheetGridlinesTh      3                           DateCreated:              15/07/2025 20:50:19
+DefaultView:              2                           DisplayViewsOnShar        1
+FilterOnLoad:             False                       HideNewField:             False
+
+LastUpdated:              17/07/2025 11:35:32         NameMap:                  Long binary data
+OrderByOn:                False                       OrderByOnLoad:            True
+Orientation:              Left-to-Right               PublishToWeb:             1
+
+ReadOnlyWhenDiscon        False                       RecordCount:              703
+ThemeFontIndex:           1                           TotalsRow:                False
+Updatable:                True
+
+
+
+
+Columns
+
+         Name                                                  Type                        Size
+         ID                                                    Long Integer                             4
+
+                  AggregateType:             -1
+                  AllowZeroLength:           False
+                  AppendOnly:                False
+
+                  Attributes:                Fixed Size, Auto-Increment
+                  CollatingOrder:            General
+                  ColumnHidden:              False
+
+                  ColumnOrder:               Default
+                  ColumnWidth:               Default
+                  CurrencyLCID:              0
+                  DataUpdatable:             False
+
+                  GUID:                      {guid {1B80AA26-34A0-414B-812F-C71B48E0286E}}
+                  OrdinalPosition:           0
+                  Required:                  False
+
+                  ResultType:                0
+                  SourceField:               ID
+                  SourceTable:               tracker
+
+                  TextAlign:                 General
+
+         Priority                                              Short Text                             255
+
+                  AggregateType:             -1
+                  AllowZeroLength:           True
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  ColumnHidden:              False
+                  ColumnOrder:               Default
+
+                  ColumnWidth:               Default
+                  CurrencyLCID:              0
+                  DataUpdatable:             False
+
+                  DisplayControl:            Text Box
+                  GUID:                      {guid {A9DFA836-A64C-4B61-B513-449AFC1C95A9}}
+                  IMEMode:                   0
+                  IMESentenceMode:           3
+
+                  OrdinalPosition:           1
+
+M:\Regional Genetics                                                                            17 July 2025
+Laboratories\Bioinformatics\clarity_exports\rd_wgs\tracker\w
+gs_tracker_250714_02_be.accdb
+
+Table: tracker    Required:                  False
+                  ResultType:                0
+                  SourceField:               Priority
+
+                  SourceTable:               tracker
+                  TextAlign:                 General
+                  UnicodeCompression:        True
+
+
+         Order Date                                            Date With Time                           8
+                  AggregateType:             -1
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+                  CollatingOrder:            General
+
+                  ColumnHidden:              False
+                  ColumnOrder:               Default
+                  ColumnWidth:               Default
+                  CurrencyLCID:              0
+
+                  DataUpdatable:             False
+                  Format:                    Short Date
+                  GUID:                      {guid {3B167547-61FF-4F9D-82A1-7C15077304BB}}
+
+                  IMEMode:                   0
+                  IMESentenceMode:           3
+                  OrdinalPosition:           2
+
+                  Required:                  False
+                  ResultType:                0
+                  ShowDatePicker:            For dates
+                  SourceField:               Order Date
+
+                  SourceTable:               tracker
+                  TextAlign:                 General
+
+
+         WGS Referral ID                                       Short Text                             255
+                  AggregateType:             -1
+                  AllowZeroLength:           True
+
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+                  ColumnHidden:              False
+
+                  ColumnOrder:               Default
+                  ColumnWidth:               Default
+                  CurrencyLCID:              0
+
+                  DataUpdatable:             False
+                  DisplayControl:            Text Box
+                  GUID:                      {guid {5941927A-4C19-4DF4-90C5-6F5D269F1198}}
+
+                  IMEMode:                   0
+                  IMESentenceMode:           3
+                  OrdinalPosition:           3
+                  Required:                  True
+
+                  ResultType:                0
+                  SourceField:               WGS Referral ID
+                  SourceTable:               tracker
+
+                  TextAlign:                 General
+                  UnicodeCompression:        True
+
+
+         One of family MRNs                                    Short Text                             255
+                  AggregateType:             -1
+
+
+M:\Regional Genetics                                                                            17 July 2025
+Laboratories\Bioinformatics\clarity_exports\rd_wgs\tracker\w
+gs_tracker_250714_02_be.accdb
+
+Table: tracker    AllowZeroLength:           True
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+
+                  CollatingOrder:            General
+                  ColumnHidden:              False
+                  ColumnOrder:               Default
+                  ColumnWidth:               Default
+
+                  CurrencyLCID:              0
+                  DataUpdatable:             False
+                  DisplayControl:            Text Box
+
+                  GUID:                      {guid {2B4B0063-90DF-4593-BDAD-26B6207EF0A9}}
+                  IMEMode:                   0
+                  IMESentenceMode:           3
+                  OrdinalPosition:           4
+
+                  Required:                  True
+                  ResultType:                0
+                  SourceField:               One of family MRNs
+
+                  SourceTable:               tracker
+                  TextAlign:                 General
+                  UnicodeCompression:        True
+
+
+         Submitter                                             Short Text                             255
+                  AggregateType:             -1
+
+                  AllowZeroLength:           True
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+
+                  ColumnHidden:              False
+                  ColumnOrder:               Default
+                  ColumnWidth:               3240
+
+                  CurrencyLCID:              0
+                  DataUpdatable:             False
+                  DisplayControl:            Text Box
+
+                  GUID:                      {guid {80D82EE7-8AF7-42EF-A198-0AE861FA1AFD}}
+                  IMEMode:                   0
+                  IMESentenceMode:           3
+                  OrdinalPosition:           5
+
+                  Required:                  False
+                  ResultType:                0
+                  SourceField:               Submitter
+
+                  SourceTable:               tracker
+                  TextAlign:                 General
+                  UnicodeCompression:        True
+
+
+         Status                                                Long Integer                             4
+                  AggregateType:             -1
+                  AllowZeroLength:           False
+
+                  AppendOnly:                False
+                  Attributes:                Fixed Size
+                  CollatingOrder:            General
+
+                  ColumnHidden:              False
+                  ColumnOrder:               Default
+                  ColumnWidth:               Default
+
+                  CurrencyLCID:              0
+                  DataUpdatable:             False
+
+
+M:\Regional Genetics                                                                            17 July 2025
+Laboratories\Bioinformatics\clarity_exports\rd_wgs\tracker\w
+gs_tracker_250714_02_be.accdb
+
+Table: tracker    DecimalPlaces:             Auto
+                  DisplayControl:            Text Box
+                  GUID:                      {guid {B942C787-836C-4B85-82D3-C4694749BAA7}}
+
+                  OrdinalPosition:           6
+                  Required:                  False
+                  ResultType:                0
+                  SourceField:               Status
+
+                  SourceTable:               tracker
+                  TextAlign:                 General
+
+
+         Batch                                                 Short Text                             255
+                  AggregateType:             -1
+                  AllowZeroLength:           True
+
+                  AppendOnly:                False
+                  Attributes:                Variable Length
+                  CollatingOrder:            General
+                  ColumnHidden:              False
+
+                  ColumnOrder:               Default
+                  ColumnWidth:               Default
+                  CurrencyLCID:              0
+
+                  DataUpdatable:             False
+                  DisplayControl:            Text Box
+                  GUID:                      {guid {89E2E037-382E-402F-92A4-21DDB35D95B6}}
+
+                  IMEMode:                   0
+                  IMESentenceMode:           3
+                  OrdinalPosition:           7
+                  Required:                  False
+
+                  ResultType:                0
+                  SourceField:               Batch
+                  SourceTable:               tracker
+
+                  TextAlign:                 General
+                  UnicodeCompression:        True
+
+
+
+Table Indexes
+
+         Name                                     Number of
+         PrimaryKey                               1
+
+                  Clustered:                 False
+                  DistinctCount:             703
+                  Foreign:                   False
+
+                  IgnoreNulls:               False
+                  Name:                      PrimaryKey
+                  Primary:                   True
+
+                  Required:                  True
+                  Unique:                    True
+                  Fields:
+
+                  ID                         Ascending
+         WGS Referral ID                          1
+
+                  Clustered:                 False
+                  DistinctCount:             703
+                  Foreign:                   False
+
+                  IgnoreNulls:               False
+                  Name:                      WGS Referral ID
+                  Primary:                   False
+
+
+M:\Regional Genetics                                                                            17 July 2025
+Laboratories\Bioinformatics\clarity_exports\rd_wgs\tracker\w
+gs_tracker_250714_02_be.accdb
+
+Table: tracker    Required:                  False
+                  Unique:                    True
+                  Fields:
+
+                  WGS Referral ID            Ascending
+
+
+
+
+User Permissions
+
+         admin                      Delete, Read Permissions, Set Permissions, Change Owner,
+                                    Read Definition, Write Definition, Read Data, Insert Data,
+
+
+
+
+
+Group Permissions
+
+         Admins                     Delete, Read Permissions, Set Permissions, Change Owner,
+                                    Read Definition, Write Definition, Read Data, Insert Data,
+         Users                      Delete, Read Permissions, Set Permissions, Change Owner,
+                                    Read Definition, Write Definition, Read Data, Insert Data,
