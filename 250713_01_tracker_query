@@ -1,0 +1,13 @@
+SELECT
+  tracker.Priority,
+  tracker.[Order Date],
+  tracker.[WGS Referral ID],
+  tracker.[One of family MRNs],
+  tracker.Submitter,
+  tracker.Status,
+  tracker.Batch
+FROM
+  tracker
+ORDER BY
+  tracker.Priority DESC,
+  tracker.[Order Date];
