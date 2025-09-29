@@ -1,0 +1,23 @@
+SELECT DISTINCT
+  dbo_X_GO_GLH_ACTIVITY_REPORT.[Beaker Procedure Name],
+  dbo_X_GO_GLH_ACTIVITY_REPORT.[WGS Referral ID],
+  dbo_X_GO_GLH_ACTIVITY_REPORT.[Specimen Identifier],
+  dbo_X_GO_GLH_ACTIVITY_REPORT.[External Specimen Identifier],
+  dbo_X_GO_GLH_ACTIVITY_REPORT.[Patient Stated Gender],
+  Year([Patient Date of Birth]) AS ['Year of Birth']
+FROM
+  dbo_X_GO_GLH_ACTIVITY_REPORT
+WHERE
+  dbo_X_GO_GLH_ACTIVITY_REPORT.[Beaker Procedure Name]
+    Like 'RARE DISEASE WGS REPORT'
+  AND 
+    dbo_X_GO_GLH_ACTIVITY_REPORT.[WGS Referral ID]
+      Is Not Null
+  AND 
+    dbo_X_GO_GLH_ACTIVITY_REPORT.[Last Final Verify Date]
+      Is Null
+  AND 
+    dbo_X_GO_GLH_ACTIVITY_REPORT.[Test Validation Status]
+      Not In ('Cancelled', 'Pending Final Verification')
+ORDER BY
+  dbo_X_GO_GLH_ACTIVITY_REPORT.[WGS Referral ID];
