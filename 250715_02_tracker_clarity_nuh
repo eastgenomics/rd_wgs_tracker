@@ -1,0 +1,16 @@
+Private Sub Form_Load()
+
+Dim SQL As String
+
+SQL = "INSERT INTO tracker ([Priority], [Order Date], [WGS Referral ID], [One of family MRNs], [Submitter])" & _
+      "SELECT [250715_02_clarity_query_nuh].[Priority], [250715_02_clarity_query_nuh].[Order Date]," & _
+      "[250715_02_clarity_query_nuh].[WGS Referral ID], [250715_02_clarity_query_nuh].[One of family MRNs]," & _
+      "[250715_02_clarity_query_nuh].[Submitter]" & _
+      "FROM 250715_02_clarity_query_nuh LEFT JOIN tracker ON [250715_02_clarity_query_nuh].[WGS Referral ID] = tracker.[WGS Referral ID]" & _
+      "WHERE tracker.[WGS Referral ID] IS NULL;"
+
+DoCmd.RunSQL SQL
+      
+Me.Requery
+
+End Sub
